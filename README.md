@@ -1,7 +1,7 @@
 # microservice-store-app
 
-cloud-config-server: Spring cloud config server, points git url,
-cloud-gateway:  Spring cloud gateway/(alternative zuul),
+cloud-config-server: Spring cloud config server, points git url;
+cloud-gateway:  Spring cloud gateway/(alternative zuul);
 service-registry: Eureka Service Registry,
 order-service: service,
 payment-service: service,
