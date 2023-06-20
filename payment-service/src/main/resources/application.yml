@@ -1,0 +1,30 @@
+server:
+  port: 8082
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+
+  datasource:
+    url: jdbc:h2:mem:storedb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: PAYMENT-SERVICE
+
+logging:
+  file:
+    name: C:\Users\Chandrika Thapa\Desktop\logs\microservice.log
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
+#  instance:
+#    hostname: localhost
